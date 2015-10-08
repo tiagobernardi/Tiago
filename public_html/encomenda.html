@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html lang="en">
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Padaria e Confeitaria</title>
+
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     </head>
     <body>
-        <div>TODO write content</div>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo"><img src="Logo3.gif"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="servicos.html">Serviços oferecidos</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="servicos.html">Serviços Oferecidos</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                        <label for="disabled">Disabled</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <footer class="page-footer teal">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Movimento compre do pequeno negócio</h5>
+                        <p class="grey-text text-lighten-4">Os empreendedores que aderirem ao Movimento – hoje
+                            já são mais de 65 mil cadastrados – terão como um dos
+                            principais incentivos a aceitação do cartão como meio
+                            de pagamento, o que garante facilidade e conveniência
+                            para os consumidores.
+
+                            Fonte: ABIP</p>
+
+
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Nossos Parceiros</h5>
+                        <ul>
+                            <li><a class="white-text" target="blank" href="http://www.bunge.com.br/Default.aspx">Bunge</a></li>
+                            <li><a class="white-text" target="blank" href="http://vicatoalimentos.com.br/">Vicato</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Cursos na área</h5>
+                        <ul>
+                            <li><a class="white-text" target="blank-one" href="http://www.sc.senai.br/siteinstitucional/servicos/curso/show/curso/2020/nome/panificacao-e-confeitaria">Senai</a></li>
+                            <li><a class="white-text" target="blank-two" href="http://www.senac.com.br/cursos/detalhecurso.aspx?curso=1288&uf=PR">Senac</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <p>&copy; Company 2015</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+
     </body>
 </html>
